@@ -14,12 +14,12 @@ This project involves training a YOLOv8 model for car and traffic light object d
 
 ## Setup
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.10 or higher
 - GPU with CUDA support (optional but recommended for faster training)
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -29,7 +29,7 @@ This project involves training a YOLOv8 model for car and traffic light object d
    ```bash
    pip install -r requirements.txt
 
-### Dataset
+## Dataset
 
 The dataset should be organized as follows:
 
@@ -42,30 +42,30 @@ data/
 │   └── labels/
 └── yolo.yaml
 
-### Results
+## Results
 
 The model achieved the following performance metrics on the validation set:
 
 mAP50: 0.682
 mAP50-95: 0.419
 
-### Visualization
+## Visualization
 
 The results are visualized using Matplotlib, showing bounding boxes and confidence scores on detected objects.
 
-### Future Work
+## Future Work
 
 Improvement: Further tune the model to improve mAP50-95.
 Expansion: Apply these skills to more complex computer vision tasks.
 
-### Contributing
+## Contributing
 
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+## Acknowledgments
 
 Ultralytics for the YOLOv8 framework.
 MLflow for experiment tracking and logging.
