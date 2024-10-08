@@ -3,6 +3,7 @@
 ## Overview
 
 This project involves training a YOLOv8 model for car and traffic light object detection using the Ultralytics framework. The model is trained on a dataset of images containing cars and traffic lights, with bounding box annotations.
+<img src="Screenshot (1981).png" alt="Sample Image">
 
 ## Highlights
 
